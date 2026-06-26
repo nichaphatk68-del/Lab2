@@ -49,5 +49,17 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
+         String mess = joinThese("Method","are","cool");
+        Log.i("message=",mess);
+        float area = getAreaCircle(5f);
+        Log.i("area=",""+area);
+    }
+    String joinThese(String a,String b,String c){
+        return a+b+c;
+    }
+    float getAreaCircle(float radius){
+        return 3.14f*radius*radius;
     }
 }
+
+    
